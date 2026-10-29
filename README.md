@@ -50,6 +50,15 @@ http://localhost:5173/
 npm run build
 ```
 
+## Estrutura do projeto
+
+- `src/App.tsx` — componente principal, responsável pela listagem, filtro e aceitação dos pedidos.
+- `src/data.ts` — dados de exemplo dos pedidos de serviços.
+- `src/types.ts` — definição do tipo TypeScript utilizado nos pedidos.
+- `src/App.css` — estilos dos componentes da aplicação.
+- `src/index.css` — estilos gerais da página.
+- `src/main.tsx` — ponto de entrada da aplicação React.
+
 ## Dados
 
 Os pedidos são carregados a partir de dados locais definidos no ficheiro `src/data.ts`.
